@@ -57,8 +57,8 @@ read -p "Please Choose!! Will this business move forward?(1/2):" ans
 
 if [[ $ans -eq 1 ]];then
 
-#rm ../usr/etc/motd motd.dpkg-disk bash.bashrc
-#cp bash.bashrc ../usr/etc
+rm ../usr/etc/motd motd.dpkg-disk bash.bashrc
+cp bash.bashrc ../usr/etc
 echo ""
 echo -e "$C Please Wait.....$Q"
 
